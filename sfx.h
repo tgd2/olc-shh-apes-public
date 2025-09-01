@@ -7,7 +7,7 @@ extern state State;
 
 enum class SfxID
 {
-	MUSIC_MAIN = 0,
+//	MUSIC_MAIN = 0,
 
 	THROW,
 	BANANA_BOUNCE,
@@ -41,7 +41,7 @@ namespace Sfx
 
 	void LoadAllSamples()
 	{
-		Load("music/puzzle-battle.mp3");
+//		Load("music/puzzle-battle.mp3");
 
 		Load("throw.wav");
 		Load("banana-bounce.wav");
@@ -58,17 +58,17 @@ namespace Sfx
 
 	void ToggleMusic()
 	{
-		if (State.MusicInstanceId != 999)
-		{
-			State.MiniAudio->Toggle(State.MusicInstanceId);
-		}
+//		if (State.MusicInstanceId != 999)
+//		{
+//			State.MiniAudio->Toggle(State.MusicInstanceId);
+//		}
 	}
 
 	void PlayMusic(SfxID nSampleID, bool bLoop)
 	{
-		State.MusicInstanceId = State.MiniAudio->Play(State.WavFilenames[(int)nSampleID]);
-		State.MiniAudio->SetVolume(State.MusicInstanceId, VolumeMusic);
-		ma_sound_set_looping(State.MiniAudio->GetSound(State.MusicInstanceId), true);
+//		State.MusicInstanceId = State.MiniAudio->Play(State.WavFilenames[(int)nSampleID]);
+//		State.MiniAudio->SetVolume(State.MusicInstanceId, VolumeMusic);
+//		ma_sound_set_looping(State.MiniAudio->GetSound(State.MusicInstanceId), true);
 	}
 
 	void Update()

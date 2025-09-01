@@ -18,7 +18,7 @@ namespace Game
 	void ResetGame()
 	{
 		State.Game = state::gameState{};
-		Sfx::PlayMusic(SfxID::MUSIC_MAIN, true);
+//		Sfx::PlayMusic(SfxID::MUSIC_MAIN, true);
 	}
 
 	void SetNewGameState(gameStateId NewGameState)
