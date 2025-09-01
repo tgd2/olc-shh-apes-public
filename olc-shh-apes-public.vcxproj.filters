@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engines">
+      <UniqueIdentifier>{3efee1e3-5078-4453-8123-61f8f6db9438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{73772f20-e525-4d2f-a3ed-2aeaaefde7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engines\Box2d">
+      <UniqueIdentifier>{ac834a78-e688-49d7-aaae-758ecd241cc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="box2d\base.h">
+      <Filter>Engines\Box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\box2d.h">
+      <Filter>Engines\Box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\collision.h">
+      <Filter>Engines\Box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\id.h">
+      <Filter>Engines\Box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\math_functions.h">
+      <Filter>Engines\Box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\types.h">
+      <Filter>Engines\Box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="json\tileson.hpp">
+      <Filter>Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="inputs.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="levels.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="loadSave.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="bodyHelpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="collisions.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="debugDraw.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="miniaudio.h">
+      <Filter>Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="objectRecipes.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="objects.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="olcPGEX_Gamepad.h">
+      <Filter>Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="olcPGEX_MiniAudio.h">
+      <Filter>Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="olcPGEX_TransformedView.h">
+      <Filter>Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="olcPixelGameEngine.h">
+      <Filter>Engines</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particles.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="platforms.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sfx.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
